@@ -16,6 +16,14 @@
   font-weight: 800;
 }
 
+.navbar-toggler {
+  color: black;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
 /* end of nav section*/
 
 /*------------Carousel------------*/
@@ -127,3 +135,111 @@
   transition: 0.5s;
 }
 /* end of new collection section*/
+
+/*------------Parallex ------------*/
+.parallex {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/computer.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.parallex h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.parallex p {
+  font-size: 22px;
+}
+/* end of parallex*/
+
+/*------------Buttons Inside Parallex ------------*/
+.btn2 {
+  height: 40px;
+  width: 110px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: yellowgreen;
+  transition: 0.3s;
+  border: none;
+}
+
+.btn3 {
+  height: 40px;
+  width: 110px;
+  background-color: white;
+  outline: none;
+  border: none;
+  color: yellowgreen;
+  border-radius: 4px;
+}
+
+.btn3:hover {
+  background-color: rgb(47, 42, 42);
+  color: white;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* end of buttons inside parallex*/
+
+/*------------Articles Section ------------*/
+.article a {
+  list-style: none;
+  color: black;
+  outline: none;
+}
+
+.article a:hover {
+  color: yellowgreen;
+  transition: 0.3s;
+}
+
+.article p {
+  font-size: 21px;
+}
+
+.article span {
+  color: yellowgreen;
+}
+
+.article small {
+  font-size: 15px;
+}
+/* end of articles section*/
+
+/*------------Contact Section ------------*/
+.contact input {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: gray;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 21px -8px rgba(0, 0, 0, 0.75);
+}
+
+.btn4 {
+  height: 45px;
+  width: 160px;
+  background-color: yellowgreen;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+/* end of contact section*/
